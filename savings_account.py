@@ -1,3 +1,5 @@
+from account import Account
+
 class SavingsAccount(Account):
     def __init__(self, account_holder, account_number, balance=0, interest_rate=0.02):
         super().__init__(account_holder, account_number, balance)
